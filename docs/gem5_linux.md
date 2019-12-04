@@ -1,41 +1,24 @@
 # Gem5 Debian 10 Installation
 
 ## Required packages
-```
-$ sudo apt-get install\
-  mercurial\
-  scons\
-  swig\
-  gcc\
-  m4\
-  python\
-  python-dev\
-  libgoogle-perftools-dev\
-  g++\
-  libboost-all-dev
+```Bash
+apt install mercurial scons swig gcc m4 python python-dev libgoogle-perftools-dev g++ libboost-all-dev zlib1g-dev
 ```
 
-## Clone Gem5 repository
+## Clone our repo and my fork of the Gem5 repo
+We add a few files to the `gem5/configs/` folder
 
-If using Mercurial:
-
-```
-$ hg clone http://repo.gem5.org/gem5
-```
-
-If using Git:
-```
-$ git clone --depth=1 git@github.com:gem5/gem5.git
+```Bash
+git clone --recurse-submodules <our-repo-url>
 ```
 
 ## Build for X86 architecture
 
 Specify the `-jN` flag where `N` is the number of threads to run the build with. For example:
 
-```
-$ cd gem5
-
-$ scons build/X86/gem5.opt -j17
+```Bash
+cd gem5
+scons build/X86/gem5.opt -j17
 ```
 
 ## Verify Installation
