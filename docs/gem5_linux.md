@@ -18,8 +18,10 @@ Specify the `-jN` flag where `N` is the number of threads to run the build with.
 
 ```Bash
 cd gem5
-scons build/X86/gem5.opt -j17
+scons build/X86/gem5.opt --colors -j17
 ```
+
+Building takes a hawt minute. Go get lunch.
 
 ## Verify Installation
 
