@@ -34,7 +34,11 @@ do
             $2 --o "${3}"
 
         # rename config file (setup from from each run) so each run can be verified
-        cp ./m5out/config.ini ./m5out/${replacement_policy}_${1}_config.ini
+        cp ./m5out/config.ini ./m5out/config/${replacement_policy}_${1}_config.ini
+        cp ./m5out/config.json ./m5out/config/${replacement_policy}_${1}_config.json
+
+        cp ./m5out/stats.txt ./m5out/stats/${replacement_policy}_${1}_stats.txt
+
 
     done
 
