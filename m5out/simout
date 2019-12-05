@@ -1,0 +1,22 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Dec  4 2019 12:36:04
+gem5 started Dec  4 2019 16:55:51
+gem5 executing on raphy, pid 26448
+command line: gem5/build/X86/gem5.opt -r gem5/configs/cache_replacement_project/two_level.py /home/irz0002/Documents/UNT/2019_fall/computer_architecture/cache-replacement/benchmarks/queens --o '-c 9'
+
+{'l1d_size': None, 'l1i_size': None, 'RP': None, 'l2_size': None, 'o': '-c 9'}
+<type 'str'>
+Global frequency set at 1000000000000 ticks per second
+0: system.remote_gdb: listening for remote gdb on port 7000
+Beginning simulation!
+info: Entering event queue @ 0.  Starting simulation...
+warn: ignoring syscall access(...)
+info: Increasing stack size by one page.
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall mprotect(...)
+9 queens on a 9x9 board...
+Exiting @ tick 2015227000 because user interrupt received
