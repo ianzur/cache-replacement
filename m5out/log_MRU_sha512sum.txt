@@ -2,8 +2,8 @@ gem5 Simulator System.  http://gem5.org
 gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 compiled Dec  4 2019 12:36:04
-gem5 started Dec  4 2019 19:48:47
-gem5 executing on raphy, pid 2792
+gem5 started Dec  4 2019 20:12:07
+gem5 executing on raphy, pid 3869
 command line: gem5/build/X86/gem5.opt -r --stdout-file=log_MRU_sha512sum.txt gem5/configs/cache_replacement_project/two_level.py /usr/bin/sha512sum --o /home/irz0002/Projects/compass/cache-replacement/benchmarks/benchmarks/inputs/example-sha-input.txt
 
 {'l1d_size': None, 'l1i_size': None, 'RP': None, 'l2_size': None, 'o': '/home/irz0002/Projects/compass/cache-replacement/benchmarks/benchmarks/inputs/example-sha-input.txt'}

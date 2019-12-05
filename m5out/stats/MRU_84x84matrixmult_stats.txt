@@ -1,0 +1,800 @@
+
+---------- Begin Simulation Statistics ----------
+final_tick                                18043272975                       # Number of ticks from beginning of simulation (restored from checkpoints and never reset)
+host_inst_rate                                 760907                       # Simulator instruction rate (inst/s)
+host_mem_usage                               16910840                       # Number of bytes of host memory used
+host_op_rate                                  1326026                       # Simulator op (including micro ops) rate (op/s)
+host_seconds                                    13.27                       # Real time elapsed on the host
+host_tick_rate                             1360018580                       # Simulator tick rate (ticks/s)
+sim_freq                                 1000000000000                       # Frequency of simulated ticks
+sim_insts                                    10094806                       # Number of instructions simulated
+sim_ops                                      17592265                       # Number of ops (including micro ops) simulated
+sim_seconds                                  0.018043                       # Number of seconds simulated
+sim_ticks                                 18043272975                       # Number of ticks simulated
+system.cpu.Branches                            409857                       # Number of branches fetched
+system.cpu.committedInsts                    10094806                       # Number of instructions committed
+system.cpu.committedOps                      17592265                       # Number of ops (including micro ops) committed
+system.cpu.dtb.rdAccesses                     2883686                       # TLB accesses on read requests
+system.cpu.dtb.rdMisses                           102                       # TLB misses on read requests
+system.cpu.dtb.wrAccesses                      273411                       # TLB accesses on write requests
+system.cpu.dtb.wrMisses                            35                       # TLB misses on write requests
+system.cpu.idle_fraction                     0.000000                       # Percentage of idle cycles
+system.cpu.itb.rdAccesses                           0                       # TLB accesses on read requests
+system.cpu.itb.rdMisses                             0                       # TLB misses on read requests
+system.cpu.itb.wrAccesses                    15852898                       # TLB accesses on write requests
+system.cpu.itb.wrMisses                           102                       # TLB misses on write requests
+system.cpu.not_idle_fraction                 1.000000                       # Percentage of non-idle cycles
+system.cpu.numCycles                         39655545                       # number of cpu cycles simulated
+system.cpu.numWorkItemsCompleted                    0                       # number of work items this cpu completed
+system.cpu.numWorkItemsStarted                      0                       # number of work items this cpu started
+system.cpu.num_busy_cycles               39655544.997802                       # Number of busy cycles
+system.cpu.num_cc_register_reads              1728008                       # number of times the CC registers were read
+system.cpu.num_cc_register_writes             2196388                       # number of times the CC registers were written
+system.cpu.num_conditional_control_insts       255747                       # number of instructions that are conditional controls
+system.cpu.num_fp_alu_accesses               13412362                       # Number of float alu accesses
+system.cpu.num_fp_insts                      13412362                       # number of float instructions
+system.cpu.num_fp_register_reads             16866006                       # number of times the floating registers were read
+system.cpu.num_fp_register_writes            13340509                       # number of times the floating registers were written
+system.cpu.num_func_calls                      128668                       # number of times a function call or return occured
+system.cpu.num_idle_cycles                   0.002198                       # Number of idle cycles
+system.cpu.num_int_alu_accesses               6706943                       # Number of integer alu accesses
+system.cpu.num_int_insts                      6706943                       # number of integer instructions
+system.cpu.num_int_register_reads            14874652                       # number of times the integer registers were read
+system.cpu.num_int_register_writes            3584370                       # number of times the integer registers were written
+system.cpu.num_load_insts                     2883672                       # Number of load instructions
+system.cpu.num_mem_refs                       3157083                       # number of memory refs
+system.cpu.num_store_insts                     273411                       # Number of store instructions
+system.cpu.num_vec_alu_accesses                     0                       # Number of vector alu accesses
+system.cpu.num_vec_insts                            0                       # number of vector instructions
+system.cpu.num_vec_register_reads                   0                       # number of times the vector registers were read
+system.cpu.num_vec_register_writes                  0                       # number of times the vector registers were written
+system.cpu.op_class::No_OpClass                  8709      0.05%      0.05% # Class of executed instruction
+system.cpu.op_class::IntAlu                   4733426     26.91%     26.96% # Class of executed instruction
+system.cpu.op_class::IntMult                    21214      0.12%     27.08% # Class of executed instruction
+system.cpu.op_class::IntDiv                      1288      0.01%     27.08% # Class of executed instruction
+system.cpu.op_class::FloatAdd                 4861703     27.64%     54.72% # Class of executed instruction
+system.cpu.op_class::FloatCmp                       0      0.00%     54.72% # Class of executed instruction
+system.cpu.op_class::FloatCvt                      96      0.00%     54.72% # Class of executed instruction
+system.cpu.op_class::FloatMult                      0      0.00%     54.72% # Class of executed instruction
+system.cpu.op_class::FloatMultAcc                   0      0.00%     54.72% # Class of executed instruction
+system.cpu.op_class::FloatDiv                       0      0.00%     54.72% # Class of executed instruction
+system.cpu.op_class::FloatMisc                      0      0.00%     54.72% # Class of executed instruction
+system.cpu.op_class::FloatSqrt                      0      0.00%     54.72% # Class of executed instruction
+system.cpu.op_class::SimdAdd                      540      0.00%     54.72% # Class of executed instruction
+system.cpu.op_class::SimdAddAcc                     0      0.00%     54.72% # Class of executed instruction
+system.cpu.op_class::SimdAlu                      817      0.00%     54.73% # Class of executed instruction
+system.cpu.op_class::SimdCmp                        6      0.00%     54.73% # Class of executed instruction
+system.cpu.op_class::SimdCvt                     1222      0.01%     54.73% # Class of executed instruction
+system.cpu.op_class::SimdMisc                     812      0.00%     54.74% # Class of executed instruction
+system.cpu.op_class::SimdMult                       0      0.00%     54.74% # Class of executed instruction
+system.cpu.op_class::SimdMultAcc                    0      0.00%     54.74% # Class of executed instruction
+system.cpu.op_class::SimdShift                    213      0.00%     54.74% # Class of executed instruction
+system.cpu.op_class::SimdShiftAcc                   0      0.00%     54.74% # Class of executed instruction
+system.cpu.op_class::SimdDiv                        0      0.00%     54.74% # Class of executed instruction
+system.cpu.op_class::SimdSqrt                       0      0.00%     54.74% # Class of executed instruction
+system.cpu.op_class::SimdFloatAdd             2391984     13.60%     68.34% # Class of executed instruction
+system.cpu.op_class::SimdFloatAlu                   0      0.00%     68.34% # Class of executed instruction
+system.cpu.op_class::SimdFloatCmp                   0      0.00%     68.34% # Class of executed instruction
+system.cpu.op_class::SimdFloatCvt               42336      0.24%     68.58% # Class of executed instruction
+system.cpu.op_class::SimdFloatDiv                   0      0.00%     68.58% # Class of executed instruction
+system.cpu.op_class::SimdFloatMisc                  0      0.00%     68.58% # Class of executed instruction
+system.cpu.op_class::SimdFloatMult            2370816     13.48%     82.05% # Class of executed instruction
+system.cpu.op_class::SimdFloatMultAcc               0      0.00%     82.05% # Class of executed instruction
+system.cpu.op_class::SimdFloatSqrt                  0      0.00%     82.05% # Class of executed instruction
+system.cpu.op_class::SimdReduceAdd                  0      0.00%     82.05% # Class of executed instruction
+system.cpu.op_class::SimdReduceAlu                  0      0.00%     82.05% # Class of executed instruction
+system.cpu.op_class::SimdReduceCmp                  0      0.00%     82.05% # Class of executed instruction
+system.cpu.op_class::SimdFloatReduceAdd             0      0.00%     82.05% # Class of executed instruction
+system.cpu.op_class::SimdFloatReduceCmp             0      0.00%     82.05% # Class of executed instruction
+system.cpu.op_class::SimdAes                        0      0.00%     82.05% # Class of executed instruction
+system.cpu.op_class::SimdAesMix                     0      0.00%     82.05% # Class of executed instruction
+system.cpu.op_class::SimdSha1Hash                   0      0.00%     82.05% # Class of executed instruction
+system.cpu.op_class::SimdSha1Hash2                  0      0.00%     82.05% # Class of executed instruction
+system.cpu.op_class::SimdSha256Hash                 0      0.00%     82.05% # Class of executed instruction
+system.cpu.op_class::SimdSha256Hash2                0      0.00%     82.05% # Class of executed instruction
+system.cpu.op_class::SimdShaSigma2                  0      0.00%     82.05% # Class of executed instruction
+system.cpu.op_class::SimdShaSigma3                  0      0.00%     82.05% # Class of executed instruction
+system.cpu.op_class::SimdPredAlu                    0      0.00%     82.05% # Class of executed instruction
+system.cpu.op_class::MemRead                   419670      2.39%     84.44% # Class of executed instruction
+system.cpu.op_class::MemWrite                  202305      1.15%     85.59% # Class of executed instruction
+system.cpu.op_class::FloatMemRead             2464002     14.01%     99.60% # Class of executed instruction
+system.cpu.op_class::FloatMemWrite              71106      0.40%    100.00% # Class of executed instruction
+system.cpu.op_class::IprAccess                      0      0.00%    100.00% # Class of executed instruction
+system.cpu.op_class::InstPrefetch                   0      0.00%    100.00% # Class of executed instruction
+system.cpu.op_class::total                   17592265                       # Class of executed instruction
+system.cpu.workload.numSyscalls                    32                       # Number of system calls
+system.l2bus.snoop_filter.hit_multi_requests            3                       # Number of requests hitting in the snoop filter with multiple (>1) holders of the requested data.
+system.l2bus.snoop_filter.hit_multi_snoops            0                       # Number of snoops hitting in the snoop filter with multiple (>1) holders of the requested data.
+system.l2bus.snoop_filter.hit_single_requests        38317                       # Number of requests hitting in the snoop filter with a single holder of the requested data.
+system.l2bus.snoop_filter.hit_single_snoops            1                       # Number of snoops hitting in the snoop filter with a single holder of the requested data.
+system.l2bus.snoop_filter.tot_requests          78407                       # Total number of requests made to the snoop filter.
+system.l2bus.snoop_filter.tot_snoops                1                       # Total number of snoops made to the snoop filter.
+system.membus.snoop_filter.hit_multi_requests            0                       # Number of requests hitting in the snoop filter with multiple (>1) holders of the requested data.
+system.membus.snoop_filter.hit_multi_snoops            0                       # Number of snoops hitting in the snoop filter with multiple (>1) holders of the requested data.
+system.membus.snoop_filter.hit_single_requests            3                       # Number of requests hitting in the snoop filter with a single holder of the requested data.
+system.membus.snoop_filter.hit_single_snoops            0                       # Number of snoops hitting in the snoop filter with a single holder of the requested data.
+system.membus.snoop_filter.tot_requests          4826                       # Total number of requests made to the snoop filter.
+system.membus.snoop_filter.tot_snoops               0                       # Total number of snoops made to the snoop filter.
+system.membus.pwrStateResidencyTicks::UNDEFINED  18043272975                       # Cumulative time (in ticks) in various power states
+system.membus.trans_dist::ReadResp               2966                       # Transaction distribution
+system.membus.trans_dist::WritebackDirty            2                       # Transaction distribution
+system.membus.trans_dist::CleanEvict                1                       # Transaction distribution
+system.membus.trans_dist::ReadExReq              1857                       # Transaction distribution
+system.membus.trans_dist::ReadExResp             1857                       # Transaction distribution
+system.membus.trans_dist::ReadSharedReq          2966                       # Transaction distribution
+system.membus.pkt_count_system.l2cache.mem_side::system.mem_ctrl.port         9649                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count_system.l2cache.mem_side::total         9649                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_count::total                   9649                       # Packet count per connected master and slave (bytes)
+system.membus.pkt_size_system.l2cache.mem_side::system.mem_ctrl.port       308800                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size_system.l2cache.mem_side::total       308800                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.pkt_size::total                  308800                       # Cumulative packet size per connected master and slave (bytes)
+system.membus.snoops                                0                       # Total snoops (count)
+system.membus.snoopTraffic                          0                       # Total snoop traffic (bytes)
+system.membus.snoop_fanout::samples              4823                       # Request fanout histogram
+system.membus.snoop_fanout::mean                    0                       # Request fanout histogram
+system.membus.snoop_fanout::stdev                   0                       # Request fanout histogram
+system.membus.snoop_fanout::underflows              0      0.00%      0.00% # Request fanout histogram
+system.membus.snoop_fanout::0                    4823    100.00%    100.00% # Request fanout histogram
+system.membus.snoop_fanout::1                       0      0.00%    100.00% # Request fanout histogram
+system.membus.snoop_fanout::overflows               0      0.00%    100.00% # Request fanout histogram
+system.membus.snoop_fanout::min_value               0                       # Request fanout histogram
+system.membus.snoop_fanout::max_value               0                       # Request fanout histogram
+system.membus.snoop_fanout::total                4823                       # Request fanout histogram
+system.membus.reqLayer2.occupancy             2199470                       # Layer occupancy (ticks)
+system.membus.reqLayer2.utilization               0.0                       # Layer utilization (%)
+system.membus.respLayer0.occupancy           12684540                       # Layer occupancy (ticks)
+system.membus.respLayer0.utilization              0.1                       # Layer utilization (%)
+system.l2bus.pwrStateResidencyTicks::UNDEFINED  18043272975                       # Cumulative time (in ticks) in various power states
+system.l2bus.trans_dist::ReadResp               37837                       # Transaction distribution
+system.l2bus.trans_dist::WritebackDirty         36006                       # Transaction distribution
+system.l2bus.trans_dist::CleanEvict              2314                       # Transaction distribution
+system.l2bus.trans_dist::ReadExReq               2253                       # Transaction distribution
+system.l2bus.trans_dist::ReadExResp              2253                       # Transaction distribution
+system.l2bus.trans_dist::ReadSharedReq          37837                       # Transaction distribution
+system.l2bus.pkt_count_system.cpu.icache.mem_side::system.l2cache.cpu_side         2317                       # Packet count per connected master and slave (bytes)
+system.l2bus.pkt_count_system.cpu.dcache.mem_side::system.l2cache.cpu_side       116180                       # Packet count per connected master and slave (bytes)
+system.l2bus.pkt_count::total                  118497                       # Packet count per connected master and slave (bytes)
+system.l2bus.pkt_size_system.cpu.icache.mem_side::system.l2cache.cpu_side        65408                       # Cumulative packet size per connected master and slave (bytes)
+system.l2bus.pkt_size_system.cpu.dcache.mem_side::system.l2cache.cpu_side      4804608                       # Cumulative packet size per connected master and slave (bytes)
+system.l2bus.pkt_size::total                  4870016                       # Cumulative packet size per connected master and slave (bytes)
+system.l2bus.snoops                                 3                       # Total snoops (count)
+system.l2bus.snoopTraffic                         128                       # Total snoop traffic (bytes)
+system.l2bus.snoop_fanout::samples              40093                       # Request fanout histogram
+system.l2bus.snoop_fanout::mean              0.000100                       # Request fanout histogram
+system.l2bus.snoop_fanout::stdev             0.009988                       # Request fanout histogram
+system.l2bus.snoop_fanout::underflows               0      0.00%      0.00% # Request fanout histogram
+system.l2bus.snoop_fanout::0                    40089     99.99%     99.99% # Request fanout histogram
+system.l2bus.snoop_fanout::1                        4      0.01%    100.00% # Request fanout histogram
+system.l2bus.snoop_fanout::2                        0      0.00%    100.00% # Request fanout histogram
+system.l2bus.snoop_fanout::overflows                0      0.00%    100.00% # Request fanout histogram
+system.l2bus.snoop_fanout::min_value                0                       # Request fanout histogram
+system.l2bus.snoop_fanout::max_value                1                       # Request fanout histogram
+system.l2bus.snoop_fanout::total                40093                       # Request fanout histogram
+system.l2bus.respLayer1.occupancy            53327820                       # Layer occupancy (ticks)
+system.l2bus.respLayer1.utilization               0.3                       # Layer utilization (%)
+system.l2bus.reqLayer0.occupancy             68438825                       # Layer occupancy (ticks)
+system.l2bus.reqLayer0.utilization                0.4                       # Layer utilization (%)
+system.l2bus.respLayer0.occupancy             1395030                       # Layer occupancy (ticks)
+system.l2bus.respLayer0.utilization               0.0                       # Layer utilization (%)
+system.clk_domain.clock                           455                       # Clock period in ticks
+system.clk_domain.voltage_domain.voltage            1                       # Voltage in Volts
+system.cpu.numPwrStateTransitions                   1                       # Number of power state transitions
+system.cpu.pwrStateResidencyTicks::ON     18043272975                       # Cumulative time (in ticks) in various power states
+system.cpu.icache.pwrStateResidencyTicks::UNDEFINED  18043272975                       # Cumulative time (in ticks) in various power states
+system.cpu.icache.demand_hits::.cpu.inst     15851876                       # number of demand (read+write) hits
+system.cpu.icache.demand_hits::total         15851876                       # number of demand (read+write) hits
+system.cpu.icache.overall_hits::.cpu.inst     15851876                       # number of overall hits
+system.cpu.icache.overall_hits::total        15851876                       # number of overall hits
+system.cpu.icache.demand_misses::.cpu.inst         1022                       # number of demand (read+write) misses
+system.cpu.icache.demand_misses::total           1022                       # number of demand (read+write) misses
+system.cpu.icache.overall_misses::.cpu.inst         1022                       # number of overall misses
+system.cpu.icache.overall_misses::total          1022                       # number of overall misses
+system.cpu.icache.demand_miss_latency::.cpu.inst     69159090                       # number of demand (read+write) miss cycles
+system.cpu.icache.demand_miss_latency::total     69159090                       # number of demand (read+write) miss cycles
+system.cpu.icache.overall_miss_latency::.cpu.inst     69159090                       # number of overall miss cycles
+system.cpu.icache.overall_miss_latency::total     69159090                       # number of overall miss cycles
+system.cpu.icache.demand_accesses::.cpu.inst     15852898                       # number of demand (read+write) accesses
+system.cpu.icache.demand_accesses::total     15852898                       # number of demand (read+write) accesses
+system.cpu.icache.overall_accesses::.cpu.inst     15852898                       # number of overall (read+write) accesses
+system.cpu.icache.overall_accesses::total     15852898                       # number of overall (read+write) accesses
+system.cpu.icache.demand_miss_rate::.cpu.inst     0.000064                       # miss rate for demand accesses
+system.cpu.icache.demand_miss_rate::total     0.000064                       # miss rate for demand accesses
+system.cpu.icache.overall_miss_rate::.cpu.inst     0.000064                       # miss rate for overall accesses
+system.cpu.icache.overall_miss_rate::total     0.000064                       # miss rate for overall accesses
+system.cpu.icache.demand_avg_miss_latency::.cpu.inst 67670.342466                       # average overall miss latency
+system.cpu.icache.demand_avg_miss_latency::total 67670.342466                       # average overall miss latency
+system.cpu.icache.overall_avg_miss_latency::.cpu.inst 67670.342466                       # average overall miss latency
+system.cpu.icache.overall_avg_miss_latency::total 67670.342466                       # average overall miss latency
+system.cpu.icache.blocked_cycles::no_mshrs            0                       # number of cycles access was blocked
+system.cpu.icache.blocked_cycles::no_targets            0                       # number of cycles access was blocked
+system.cpu.icache.blocked::no_mshrs                 0                       # number of cycles access was blocked
+system.cpu.icache.blocked::no_targets               0                       # number of cycles access was blocked
+system.cpu.icache.avg_blocked_cycles::no_mshrs          nan                       # average number of cycles each access was blocked
+system.cpu.icache.avg_blocked_cycles::no_targets          nan                       # average number of cycles each access was blocked
+system.cpu.icache.demand_mshr_misses::.cpu.inst         1022                       # number of demand (read+write) MSHR misses
+system.cpu.icache.demand_mshr_misses::total         1022                       # number of demand (read+write) MSHR misses
+system.cpu.icache.overall_mshr_misses::.cpu.inst         1022                       # number of overall MSHR misses
+system.cpu.icache.overall_mshr_misses::total         1022                       # number of overall MSHR misses
+system.cpu.icache.demand_mshr_miss_latency::.cpu.inst     68229070                       # number of demand (read+write) MSHR miss cycles
+system.cpu.icache.demand_mshr_miss_latency::total     68229070                       # number of demand (read+write) MSHR miss cycles
+system.cpu.icache.overall_mshr_miss_latency::.cpu.inst     68229070                       # number of overall MSHR miss cycles
+system.cpu.icache.overall_mshr_miss_latency::total     68229070                       # number of overall MSHR miss cycles
+system.cpu.icache.demand_mshr_miss_rate::.cpu.inst     0.000064                       # mshr miss rate for demand accesses
+system.cpu.icache.demand_mshr_miss_rate::total     0.000064                       # mshr miss rate for demand accesses
+system.cpu.icache.overall_mshr_miss_rate::.cpu.inst     0.000064                       # mshr miss rate for overall accesses
+system.cpu.icache.overall_mshr_miss_rate::total     0.000064                       # mshr miss rate for overall accesses
+system.cpu.icache.demand_avg_mshr_miss_latency::.cpu.inst 66760.342466                       # average overall mshr miss latency
+system.cpu.icache.demand_avg_mshr_miss_latency::total 66760.342466                       # average overall mshr miss latency
+system.cpu.icache.overall_avg_mshr_miss_latency::.cpu.inst 66760.342466                       # average overall mshr miss latency
+system.cpu.icache.overall_avg_mshr_miss_latency::total 66760.342466                       # average overall mshr miss latency
+system.cpu.icache.replacements                    273                       # number of replacements
+system.cpu.icache.ReadReq_hits::.cpu.inst     15851876                       # number of ReadReq hits
+system.cpu.icache.ReadReq_hits::total        15851876                       # number of ReadReq hits
+system.cpu.icache.ReadReq_misses::.cpu.inst         1022                       # number of ReadReq misses
+system.cpu.icache.ReadReq_misses::total          1022                       # number of ReadReq misses
+system.cpu.icache.ReadReq_miss_latency::.cpu.inst     69159090                       # number of ReadReq miss cycles
+system.cpu.icache.ReadReq_miss_latency::total     69159090                       # number of ReadReq miss cycles
+system.cpu.icache.ReadReq_accesses::.cpu.inst     15852898                       # number of ReadReq accesses(hits+misses)
+system.cpu.icache.ReadReq_accesses::total     15852898                       # number of ReadReq accesses(hits+misses)
+system.cpu.icache.ReadReq_miss_rate::.cpu.inst     0.000064                       # miss rate for ReadReq accesses
+system.cpu.icache.ReadReq_miss_rate::total     0.000064                       # miss rate for ReadReq accesses
+system.cpu.icache.ReadReq_avg_miss_latency::.cpu.inst 67670.342466                       # average ReadReq miss latency
+system.cpu.icache.ReadReq_avg_miss_latency::total 67670.342466                       # average ReadReq miss latency
+system.cpu.icache.ReadReq_mshr_misses::.cpu.inst         1022                       # number of ReadReq MSHR misses
+system.cpu.icache.ReadReq_mshr_misses::total         1022                       # number of ReadReq MSHR misses
+system.cpu.icache.ReadReq_mshr_miss_latency::.cpu.inst     68229070                       # number of ReadReq MSHR miss cycles
+system.cpu.icache.ReadReq_mshr_miss_latency::total     68229070                       # number of ReadReq MSHR miss cycles
+system.cpu.icache.ReadReq_mshr_miss_rate::.cpu.inst     0.000064                       # mshr miss rate for ReadReq accesses
+system.cpu.icache.ReadReq_mshr_miss_rate::total     0.000064                       # mshr miss rate for ReadReq accesses
+system.cpu.icache.ReadReq_avg_mshr_miss_latency::.cpu.inst 66760.342466                       # average ReadReq mshr miss latency
+system.cpu.icache.ReadReq_avg_mshr_miss_latency::total 66760.342466                       # average ReadReq mshr miss latency
+system.cpu.icache.tags.pwrStateResidencyTicks::UNDEFINED  18043272975                       # Cumulative time (in ticks) in various power states
+system.cpu.icache.tags.tagsinuse           667.528814                       # Cycle average of tags in use
+system.cpu.icache.tags.total_refs            15852898                       # Total number of references to valid blocks.
+system.cpu.icache.tags.sampled_refs              1022                       # Sample count of references to valid blocks.
+system.cpu.icache.tags.avg_refs          15511.641879                       # Average number of references to valid blocks.
+system.cpu.icache.tags.warmup_cycle             80535                       # Cycle when the warmup percentage was hit.
+system.cpu.icache.tags.occ_blocks::.cpu.inst   667.528814                       # Average occupied blocks per requestor
+system.cpu.icache.tags.occ_percent::.cpu.inst     0.651884                       # Average percentage of cache occupancy
+system.cpu.icache.tags.occ_percent::total     0.651884                       # Average percentage of cache occupancy
+system.cpu.icache.tags.occ_task_id_blocks::1024          749                       # Occupied blocks per task id
+system.cpu.icache.tags.age_task_id_blocks_1024::0           71                       # Occupied blocks per task id
+system.cpu.icache.tags.age_task_id_blocks_1024::3            5                       # Occupied blocks per task id
+system.cpu.icache.tags.age_task_id_blocks_1024::4          673                       # Occupied blocks per task id
+system.cpu.icache.tags.occ_task_id_percent::1024     0.731445                       # Percentage of cache occupancy per task id
+system.cpu.icache.tags.tag_accesses          31706818                       # Number of tag accesses
+system.cpu.icache.tags.data_accesses         31706818                       # Number of data accesses
+system.cpu.dtb.walker.pwrStateResidencyTicks::UNDEFINED  18043272975                       # Cumulative time (in ticks) in various power states
+system.cpu.interrupts.clk_domain.clock           7280                       # Clock period in ticks
+system.cpu.itb.walker.pwrStateResidencyTicks::UNDEFINED  18043272975                       # Cumulative time (in ticks) in various power states
+system.cpu.dcache.pwrStateResidencyTicks::UNDEFINED  18043272975                       # Cumulative time (in ticks) in various power states
+system.cpu.dcache.demand_hits::.cpu.data      3118029                       # number of demand (read+write) hits
+system.cpu.dcache.demand_hits::total          3118029                       # number of demand (read+write) hits
+system.cpu.dcache.overall_hits::.cpu.data      3118029                       # number of overall hits
+system.cpu.dcache.overall_hits::total         3118029                       # number of overall hits
+system.cpu.dcache.demand_misses::.cpu.data        39068                       # number of demand (read+write) misses
+system.cpu.dcache.demand_misses::total          39068                       # number of demand (read+write) misses
+system.cpu.dcache.overall_misses::.cpu.data        39068                       # number of overall misses
+system.cpu.dcache.overall_misses::total         39068                       # number of overall misses
+system.cpu.dcache.demand_miss_latency::.cpu.data    711588150                       # number of demand (read+write) miss cycles
+system.cpu.dcache.demand_miss_latency::total    711588150                       # number of demand (read+write) miss cycles
+system.cpu.dcache.overall_miss_latency::.cpu.data    711588150                       # number of overall miss cycles
+system.cpu.dcache.overall_miss_latency::total    711588150                       # number of overall miss cycles
+system.cpu.dcache.demand_accesses::.cpu.data      3157097                       # number of demand (read+write) accesses
+system.cpu.dcache.demand_accesses::total      3157097                       # number of demand (read+write) accesses
+system.cpu.dcache.overall_accesses::.cpu.data      3157097                       # number of overall (read+write) accesses
+system.cpu.dcache.overall_accesses::total      3157097                       # number of overall (read+write) accesses
+system.cpu.dcache.demand_miss_rate::.cpu.data     0.012375                       # miss rate for demand accesses
+system.cpu.dcache.demand_miss_rate::total     0.012375                       # miss rate for demand accesses
+system.cpu.dcache.overall_miss_rate::.cpu.data     0.012375                       # miss rate for overall accesses
+system.cpu.dcache.overall_miss_rate::total     0.012375                       # miss rate for overall accesses
+system.cpu.dcache.demand_avg_miss_latency::.cpu.data 18214.092096                       # average overall miss latency
+system.cpu.dcache.demand_avg_miss_latency::total 18214.092096                       # average overall miss latency
+system.cpu.dcache.overall_avg_miss_latency::.cpu.data 18214.092096                       # average overall miss latency
+system.cpu.dcache.overall_avg_miss_latency::total 18214.092096                       # average overall miss latency
+system.cpu.dcache.blocked_cycles::no_mshrs            0                       # number of cycles access was blocked
+system.cpu.dcache.blocked_cycles::no_targets            0                       # number of cycles access was blocked
+system.cpu.dcache.blocked::no_mshrs                 0                       # number of cycles access was blocked
+system.cpu.dcache.blocked::no_targets               0                       # number of cycles access was blocked
+system.cpu.dcache.avg_blocked_cycles::no_mshrs          nan                       # average number of cycles each access was blocked
+system.cpu.dcache.avg_blocked_cycles::no_targets          nan                       # average number of cycles each access was blocked
+system.cpu.dcache.writebacks::.writebacks        36004                       # number of writebacks
+system.cpu.dcache.writebacks::total             36004                       # number of writebacks
+system.cpu.dcache.demand_mshr_misses::.cpu.data        39068                       # number of demand (read+write) MSHR misses
+system.cpu.dcache.demand_mshr_misses::total        39068                       # number of demand (read+write) MSHR misses
+system.cpu.dcache.overall_mshr_misses::.cpu.data        39068                       # number of overall MSHR misses
+system.cpu.dcache.overall_mshr_misses::total        39068                       # number of overall MSHR misses
+system.cpu.dcache.demand_mshr_miss_latency::.cpu.data    676036270                       # number of demand (read+write) MSHR miss cycles
+system.cpu.dcache.demand_mshr_miss_latency::total    676036270                       # number of demand (read+write) MSHR miss cycles
+system.cpu.dcache.overall_mshr_miss_latency::.cpu.data    676036270                       # number of overall MSHR miss cycles
+system.cpu.dcache.overall_mshr_miss_latency::total    676036270                       # number of overall MSHR miss cycles
+system.cpu.dcache.demand_mshr_miss_rate::.cpu.data     0.012375                       # mshr miss rate for demand accesses
+system.cpu.dcache.demand_mshr_miss_rate::total     0.012375                       # mshr miss rate for demand accesses
+system.cpu.dcache.overall_mshr_miss_rate::.cpu.data     0.012375                       # mshr miss rate for overall accesses
+system.cpu.dcache.overall_mshr_miss_rate::total     0.012375                       # mshr miss rate for overall accesses
+system.cpu.dcache.demand_avg_mshr_miss_latency::.cpu.data 17304.092096                       # average overall mshr miss latency
+system.cpu.dcache.demand_avg_mshr_miss_latency::total 17304.092096                       # average overall mshr miss latency
+system.cpu.dcache.overall_avg_mshr_miss_latency::.cpu.data 17304.092096                       # average overall mshr miss latency
+system.cpu.dcache.overall_avg_mshr_miss_latency::total 17304.092096                       # average overall mshr miss latency
+system.cpu.dcache.replacements                  38044                       # number of replacements
+system.cpu.dcache.ReadReq_hits::.cpu.data      2846871                       # number of ReadReq hits
+system.cpu.dcache.ReadReq_hits::total         2846871                       # number of ReadReq hits
+system.cpu.dcache.ReadReq_misses::.cpu.data        36815                       # number of ReadReq misses
+system.cpu.dcache.ReadReq_misses::total         36815                       # number of ReadReq misses
+system.cpu.dcache.ReadReq_miss_latency::.cpu.data    572997880                       # number of ReadReq miss cycles
+system.cpu.dcache.ReadReq_miss_latency::total    572997880                       # number of ReadReq miss cycles
+system.cpu.dcache.ReadReq_accesses::.cpu.data      2883686                       # number of ReadReq accesses(hits+misses)
+system.cpu.dcache.ReadReq_accesses::total      2883686                       # number of ReadReq accesses(hits+misses)
+system.cpu.dcache.ReadReq_miss_rate::.cpu.data     0.012767                       # miss rate for ReadReq accesses
+system.cpu.dcache.ReadReq_miss_rate::total     0.012767                       # miss rate for ReadReq accesses
+system.cpu.dcache.ReadReq_avg_miss_latency::.cpu.data 15564.250441                       # average ReadReq miss latency
+system.cpu.dcache.ReadReq_avg_miss_latency::total 15564.250441                       # average ReadReq miss latency
+system.cpu.dcache.ReadReq_mshr_misses::.cpu.data        36815                       # number of ReadReq MSHR misses
+system.cpu.dcache.ReadReq_mshr_misses::total        36815                       # number of ReadReq MSHR misses
+system.cpu.dcache.ReadReq_mshr_miss_latency::.cpu.data    539496230                       # number of ReadReq MSHR miss cycles
+system.cpu.dcache.ReadReq_mshr_miss_latency::total    539496230                       # number of ReadReq MSHR miss cycles
+system.cpu.dcache.ReadReq_mshr_miss_rate::.cpu.data     0.012767                       # mshr miss rate for ReadReq accesses
+system.cpu.dcache.ReadReq_mshr_miss_rate::total     0.012767                       # mshr miss rate for ReadReq accesses
+system.cpu.dcache.ReadReq_avg_mshr_miss_latency::.cpu.data 14654.250441                       # average ReadReq mshr miss latency
+system.cpu.dcache.ReadReq_avg_mshr_miss_latency::total 14654.250441                       # average ReadReq mshr miss latency
+system.cpu.dcache.WriteReq_hits::.cpu.data       271158                       # number of WriteReq hits
+system.cpu.dcache.WriteReq_hits::total         271158                       # number of WriteReq hits
+system.cpu.dcache.WriteReq_misses::.cpu.data         2253                       # number of WriteReq misses
+system.cpu.dcache.WriteReq_misses::total         2253                       # number of WriteReq misses
+system.cpu.dcache.WriteReq_miss_latency::.cpu.data    138590270                       # number of WriteReq miss cycles
+system.cpu.dcache.WriteReq_miss_latency::total    138590270                       # number of WriteReq miss cycles
+system.cpu.dcache.WriteReq_accesses::.cpu.data       273411                       # number of WriteReq accesses(hits+misses)
+system.cpu.dcache.WriteReq_accesses::total       273411                       # number of WriteReq accesses(hits+misses)
+system.cpu.dcache.WriteReq_miss_rate::.cpu.data     0.008240                       # miss rate for WriteReq accesses
+system.cpu.dcache.WriteReq_miss_rate::total     0.008240                       # miss rate for WriteReq accesses
+system.cpu.dcache.WriteReq_avg_miss_latency::.cpu.data 61513.657346                       # average WriteReq miss latency
+system.cpu.dcache.WriteReq_avg_miss_latency::total 61513.657346                       # average WriteReq miss latency
+system.cpu.dcache.WriteReq_mshr_misses::.cpu.data         2253                       # number of WriteReq MSHR misses
+system.cpu.dcache.WriteReq_mshr_misses::total         2253                       # number of WriteReq MSHR misses
+system.cpu.dcache.WriteReq_mshr_miss_latency::.cpu.data    136540040                       # number of WriteReq MSHR miss cycles
+system.cpu.dcache.WriteReq_mshr_miss_latency::total    136540040                       # number of WriteReq MSHR miss cycles
+system.cpu.dcache.WriteReq_mshr_miss_rate::.cpu.data     0.008240                       # mshr miss rate for WriteReq accesses
+system.cpu.dcache.WriteReq_mshr_miss_rate::total     0.008240                       # mshr miss rate for WriteReq accesses
+system.cpu.dcache.WriteReq_avg_mshr_miss_latency::.cpu.data 60603.657346                       # average WriteReq mshr miss latency
+system.cpu.dcache.WriteReq_avg_mshr_miss_latency::total 60603.657346                       # average WriteReq mshr miss latency
+system.cpu.dcache.tags.pwrStateResidencyTicks::UNDEFINED  18043272975                       # Cumulative time (in ticks) in various power states
+system.cpu.dcache.tags.tagsinuse          1016.701284                       # Cycle average of tags in use
+system.cpu.dcache.tags.total_refs             3157097                       # Total number of references to valid blocks.
+system.cpu.dcache.tags.sampled_refs             39068                       # Sample count of references to valid blocks.
+system.cpu.dcache.tags.avg_refs             80.810305                       # Average number of references to valid blocks.
+system.cpu.dcache.tags.warmup_cycle            159705                       # Cycle when the warmup percentage was hit.
+system.cpu.dcache.tags.occ_blocks::.cpu.data  1016.701284                       # Average occupied blocks per requestor
+system.cpu.dcache.tags.occ_percent::.cpu.data     0.992872                       # Average percentage of cache occupancy
+system.cpu.dcache.tags.occ_percent::total     0.992872                       # Average percentage of cache occupancy
+system.cpu.dcache.tags.occ_task_id_blocks::1024         1024                       # Occupied blocks per task id
+system.cpu.dcache.tags.age_task_id_blocks_1024::0           66                       # Occupied blocks per task id
+system.cpu.dcache.tags.age_task_id_blocks_1024::1           25                       # Occupied blocks per task id
+system.cpu.dcache.tags.age_task_id_blocks_1024::2          179                       # Occupied blocks per task id
+system.cpu.dcache.tags.age_task_id_blocks_1024::3          243                       # Occupied blocks per task id
+system.cpu.dcache.tags.age_task_id_blocks_1024::4          511                       # Occupied blocks per task id
+system.cpu.dcache.tags.occ_task_id_percent::1024            1                       # Percentage of cache occupancy per task id
+system.cpu.dcache.tags.tag_accesses           6353262                       # Number of tag accesses
+system.cpu.dcache.tags.data_accesses          6353262                       # Number of data accesses
+system.l2cache.pwrStateResidencyTicks::UNDEFINED  18043272975                       # Cumulative time (in ticks) in various power states
+system.l2cache.demand_hits::.cpu.inst              59                       # number of demand (read+write) hits
+system.l2cache.demand_hits::.cpu.data           35208                       # number of demand (read+write) hits
+system.l2cache.demand_hits::total               35267                       # number of demand (read+write) hits
+system.l2cache.overall_hits::.cpu.inst             59                       # number of overall hits
+system.l2cache.overall_hits::.cpu.data          35208                       # number of overall hits
+system.l2cache.overall_hits::total              35267                       # number of overall hits
+system.l2cache.demand_misses::.cpu.inst           963                       # number of demand (read+write) misses
+system.l2cache.demand_misses::.cpu.data          3860                       # number of demand (read+write) misses
+system.l2cache.demand_misses::total              4823                       # number of demand (read+write) misses
+system.l2cache.overall_misses::.cpu.inst          963                       # number of overall misses
+system.l2cache.overall_misses::.cpu.data         3860                       # number of overall misses
+system.l2cache.overall_misses::total             4823                       # number of overall misses
+system.l2cache.demand_miss_latency::.cpu.inst     66267565                       # number of demand (read+write) miss cycles
+system.l2cache.demand_miss_latency::.cpu.data    266434805                       # number of demand (read+write) miss cycles
+system.l2cache.demand_miss_latency::total    332702370                       # number of demand (read+write) miss cycles
+system.l2cache.overall_miss_latency::.cpu.inst     66267565                       # number of overall miss cycles
+system.l2cache.overall_miss_latency::.cpu.data    266434805                       # number of overall miss cycles
+system.l2cache.overall_miss_latency::total    332702370                       # number of overall miss cycles
+system.l2cache.demand_accesses::.cpu.inst         1022                       # number of demand (read+write) accesses
+system.l2cache.demand_accesses::.cpu.data        39068                       # number of demand (read+write) accesses
+system.l2cache.demand_accesses::total           40090                       # number of demand (read+write) accesses
+system.l2cache.overall_accesses::.cpu.inst         1022                       # number of overall (read+write) accesses
+system.l2cache.overall_accesses::.cpu.data        39068                       # number of overall (read+write) accesses
+system.l2cache.overall_accesses::total          40090                       # number of overall (read+write) accesses
+system.l2cache.demand_miss_rate::.cpu.inst     0.942270                       # miss rate for demand accesses
+system.l2cache.demand_miss_rate::.cpu.data     0.098802                       # miss rate for demand accesses
+system.l2cache.demand_miss_rate::total       0.120304                       # miss rate for demand accesses
+system.l2cache.overall_miss_rate::.cpu.inst     0.942270                       # miss rate for overall accesses
+system.l2cache.overall_miss_rate::.cpu.data     0.098802                       # miss rate for overall accesses
+system.l2cache.overall_miss_rate::total      0.120304                       # miss rate for overall accesses
+system.l2cache.demand_avg_miss_latency::.cpu.inst 68813.670820                       # average overall miss latency
+system.l2cache.demand_avg_miss_latency::.cpu.data 69024.560881                       # average overall miss latency
+system.l2cache.demand_avg_miss_latency::total 68982.452830                       # average overall miss latency
+system.l2cache.overall_avg_miss_latency::.cpu.inst 68813.670820                       # average overall miss latency
+system.l2cache.overall_avg_miss_latency::.cpu.data 69024.560881                       # average overall miss latency
+system.l2cache.overall_avg_miss_latency::total 68982.452830                       # average overall miss latency
+system.l2cache.blocked_cycles::no_mshrs             0                       # number of cycles access was blocked
+system.l2cache.blocked_cycles::no_targets            0                       # number of cycles access was blocked
+system.l2cache.blocked::no_mshrs                    0                       # number of cycles access was blocked
+system.l2cache.blocked::no_targets                  0                       # number of cycles access was blocked
+system.l2cache.avg_blocked_cycles::no_mshrs          nan                       # average number of cycles each access was blocked
+system.l2cache.avg_blocked_cycles::no_targets          nan                       # average number of cycles each access was blocked
+system.l2cache.writebacks::.writebacks              2                       # number of writebacks
+system.l2cache.writebacks::total                    2                       # number of writebacks
+system.l2cache.demand_mshr_misses::.cpu.inst          963                       # number of demand (read+write) MSHR misses
+system.l2cache.demand_mshr_misses::.cpu.data         3860                       # number of demand (read+write) MSHR misses
+system.l2cache.demand_mshr_misses::total         4823                       # number of demand (read+write) MSHR misses
+system.l2cache.overall_mshr_misses::.cpu.inst          963                       # number of overall MSHR misses
+system.l2cache.overall_mshr_misses::.cpu.data         3860                       # number of overall MSHR misses
+system.l2cache.overall_mshr_misses::total         4823                       # number of overall MSHR misses
+system.l2cache.demand_mshr_miss_latency::.cpu.inst     57504265                       # number of demand (read+write) MSHR miss cycles
+system.l2cache.demand_mshr_miss_latency::.cpu.data    231308805                       # number of demand (read+write) MSHR miss cycles
+system.l2cache.demand_mshr_miss_latency::total    288813070                       # number of demand (read+write) MSHR miss cycles
+system.l2cache.overall_mshr_miss_latency::.cpu.inst     57504265                       # number of overall MSHR miss cycles
+system.l2cache.overall_mshr_miss_latency::.cpu.data    231308805                       # number of overall MSHR miss cycles
+system.l2cache.overall_mshr_miss_latency::total    288813070                       # number of overall MSHR miss cycles
+system.l2cache.demand_mshr_miss_rate::.cpu.inst     0.942270                       # mshr miss rate for demand accesses
+system.l2cache.demand_mshr_miss_rate::.cpu.data     0.098802                       # mshr miss rate for demand accesses
+system.l2cache.demand_mshr_miss_rate::total     0.120304                       # mshr miss rate for demand accesses
+system.l2cache.overall_mshr_miss_rate::.cpu.inst     0.942270                       # mshr miss rate for overall accesses
+system.l2cache.overall_mshr_miss_rate::.cpu.data     0.098802                       # mshr miss rate for overall accesses
+system.l2cache.overall_mshr_miss_rate::total     0.120304                       # mshr miss rate for overall accesses
+system.l2cache.demand_avg_mshr_miss_latency::.cpu.inst 59713.670820                       # average overall mshr miss latency
+system.l2cache.demand_avg_mshr_miss_latency::.cpu.data 59924.560881                       # average overall mshr miss latency
+system.l2cache.demand_avg_mshr_miss_latency::total 59882.452830                       # average overall mshr miss latency
+system.l2cache.overall_avg_mshr_miss_latency::.cpu.inst 59713.670820                       # average overall mshr miss latency
+system.l2cache.overall_avg_mshr_miss_latency::.cpu.data 59924.560881                       # average overall mshr miss latency
+system.l2cache.overall_avg_mshr_miss_latency::total 59882.452830                       # average overall mshr miss latency
+system.l2cache.replacements                         3                       # number of replacements
+system.l2cache.WritebackDirty_hits::.writebacks        36004                       # number of WritebackDirty hits
+system.l2cache.WritebackDirty_hits::total        36004                       # number of WritebackDirty hits
+system.l2cache.WritebackDirty_accesses::.writebacks        36004                       # number of WritebackDirty accesses(hits+misses)
+system.l2cache.WritebackDirty_accesses::total        36004                       # number of WritebackDirty accesses(hits+misses)
+system.l2cache.CleanEvict_mshr_misses::.writebacks            1                       # number of CleanEvict MSHR misses
+system.l2cache.CleanEvict_mshr_misses::total            1                       # number of CleanEvict MSHR misses
+system.l2cache.CleanEvict_mshr_miss_rate::.writebacks          inf                       # mshr miss rate for CleanEvict accesses
+system.l2cache.CleanEvict_mshr_miss_rate::total          inf                       # mshr miss rate for CleanEvict accesses
+system.l2cache.ReadExReq_hits::.cpu.data          396                       # number of ReadExReq hits
+system.l2cache.ReadExReq_hits::total              396                       # number of ReadExReq hits
+system.l2cache.ReadExReq_misses::.cpu.data         1857                       # number of ReadExReq misses
+system.l2cache.ReadExReq_misses::total           1857                       # number of ReadExReq misses
+system.l2cache.ReadExReq_miss_latency::.cpu.data    129192245                       # number of ReadExReq miss cycles
+system.l2cache.ReadExReq_miss_latency::total    129192245                       # number of ReadExReq miss cycles
+system.l2cache.ReadExReq_accesses::.cpu.data         2253                       # number of ReadExReq accesses(hits+misses)
+system.l2cache.ReadExReq_accesses::total         2253                       # number of ReadExReq accesses(hits+misses)
+system.l2cache.ReadExReq_miss_rate::.cpu.data     0.824234                       # miss rate for ReadExReq accesses
+system.l2cache.ReadExReq_miss_rate::total     0.824234                       # miss rate for ReadExReq accesses
+system.l2cache.ReadExReq_avg_miss_latency::.cpu.data 69570.406570                       # average ReadExReq miss latency
+system.l2cache.ReadExReq_avg_miss_latency::total 69570.406570                       # average ReadExReq miss latency
+system.l2cache.ReadExReq_mshr_misses::.cpu.data         1857                       # number of ReadExReq MSHR misses
+system.l2cache.ReadExReq_mshr_misses::total         1857                       # number of ReadExReq MSHR misses
+system.l2cache.ReadExReq_mshr_miss_latency::.cpu.data    112293545                       # number of ReadExReq MSHR miss cycles
+system.l2cache.ReadExReq_mshr_miss_latency::total    112293545                       # number of ReadExReq MSHR miss cycles
+system.l2cache.ReadExReq_mshr_miss_rate::.cpu.data     0.824234                       # mshr miss rate for ReadExReq accesses
+system.l2cache.ReadExReq_mshr_miss_rate::total     0.824234                       # mshr miss rate for ReadExReq accesses
+system.l2cache.ReadExReq_avg_mshr_miss_latency::.cpu.data 60470.406570                       # average ReadExReq mshr miss latency
+system.l2cache.ReadExReq_avg_mshr_miss_latency::total 60470.406570                       # average ReadExReq mshr miss latency
+system.l2cache.ReadSharedReq_hits::.cpu.inst           59                       # number of ReadSharedReq hits
+system.l2cache.ReadSharedReq_hits::.cpu.data        34812                       # number of ReadSharedReq hits
+system.l2cache.ReadSharedReq_hits::total        34871                       # number of ReadSharedReq hits
+system.l2cache.ReadSharedReq_misses::.cpu.inst          963                       # number of ReadSharedReq misses
+system.l2cache.ReadSharedReq_misses::.cpu.data         2003                       # number of ReadSharedReq misses
+system.l2cache.ReadSharedReq_misses::total         2966                       # number of ReadSharedReq misses
+system.l2cache.ReadSharedReq_miss_latency::.cpu.inst     66267565                       # number of ReadSharedReq miss cycles
+system.l2cache.ReadSharedReq_miss_latency::.cpu.data    137242560                       # number of ReadSharedReq miss cycles
+system.l2cache.ReadSharedReq_miss_latency::total    203510125                       # number of ReadSharedReq miss cycles
+system.l2cache.ReadSharedReq_accesses::.cpu.inst         1022                       # number of ReadSharedReq accesses(hits+misses)
+system.l2cache.ReadSharedReq_accesses::.cpu.data        36815                       # number of ReadSharedReq accesses(hits+misses)
+system.l2cache.ReadSharedReq_accesses::total        37837                       # number of ReadSharedReq accesses(hits+misses)
+system.l2cache.ReadSharedReq_miss_rate::.cpu.inst     0.942270                       # miss rate for ReadSharedReq accesses
+system.l2cache.ReadSharedReq_miss_rate::.cpu.data     0.054407                       # miss rate for ReadSharedReq accesses
+system.l2cache.ReadSharedReq_miss_rate::total     0.078389                       # miss rate for ReadSharedReq accesses
+system.l2cache.ReadSharedReq_avg_miss_latency::.cpu.inst 68813.670820                       # average ReadSharedReq miss latency
+system.l2cache.ReadSharedReq_avg_miss_latency::.cpu.data 68518.502247                       # average ReadSharedReq miss latency
+system.l2cache.ReadSharedReq_avg_miss_latency::total 68614.337492                       # average ReadSharedReq miss latency
+system.l2cache.ReadSharedReq_mshr_misses::.cpu.inst          963                       # number of ReadSharedReq MSHR misses
+system.l2cache.ReadSharedReq_mshr_misses::.cpu.data         2003                       # number of ReadSharedReq MSHR misses
+system.l2cache.ReadSharedReq_mshr_misses::total         2966                       # number of ReadSharedReq MSHR misses
+system.l2cache.ReadSharedReq_mshr_miss_latency::.cpu.inst     57504265                       # number of ReadSharedReq MSHR miss cycles
+system.l2cache.ReadSharedReq_mshr_miss_latency::.cpu.data    119015260                       # number of ReadSharedReq MSHR miss cycles
+system.l2cache.ReadSharedReq_mshr_miss_latency::total    176519525                       # number of ReadSharedReq MSHR miss cycles
+system.l2cache.ReadSharedReq_mshr_miss_rate::.cpu.inst     0.942270                       # mshr miss rate for ReadSharedReq accesses
+system.l2cache.ReadSharedReq_mshr_miss_rate::.cpu.data     0.054407                       # mshr miss rate for ReadSharedReq accesses
+system.l2cache.ReadSharedReq_mshr_miss_rate::total     0.078389                       # mshr miss rate for ReadSharedReq accesses
+system.l2cache.ReadSharedReq_avg_mshr_miss_latency::.cpu.inst 59713.670820                       # average ReadSharedReq mshr miss latency
+system.l2cache.ReadSharedReq_avg_mshr_miss_latency::.cpu.data 59418.502247                       # average ReadSharedReq mshr miss latency
+system.l2cache.ReadSharedReq_avg_mshr_miss_latency::total 59514.337492                       # average ReadSharedReq mshr miss latency
+system.l2cache.tags.pwrStateResidencyTicks::UNDEFINED  18043272975                       # Cumulative time (in ticks) in various power states
+system.l2cache.tags.tagsinuse             4193.888532                       # Cycle average of tags in use
+system.l2cache.tags.total_refs                  78403                       # Total number of references to valid blocks.
+system.l2cache.tags.sampled_refs                 4823                       # Sample count of references to valid blocks.
+system.l2cache.tags.avg_refs                16.256065                       # Average number of references to valid blocks.
+system.l2cache.tags.warmup_cycle                70980                       # Cycle when the warmup percentage was hit.
+system.l2cache.tags.occ_blocks::.cpu.inst   821.464237                       # Average occupied blocks per requestor
+system.l2cache.tags.occ_blocks::.cpu.data  3372.424295                       # Average occupied blocks per requestor
+system.l2cache.tags.occ_percent::.cpu.inst     0.100276                       # Average percentage of cache occupancy
+system.l2cache.tags.occ_percent::.cpu.data     0.411673                       # Average percentage of cache occupancy
+system.l2cache.tags.occ_percent::total       0.511949                       # Average percentage of cache occupancy
+system.l2cache.tags.occ_task_id_blocks::1024         4820                       # Occupied blocks per task id
+system.l2cache.tags.age_task_id_blocks_1024::0           70                       # Occupied blocks per task id
+system.l2cache.tags.age_task_id_blocks_1024::4         4750                       # Occupied blocks per task id
+system.l2cache.tags.occ_task_id_percent::1024     0.588379                       # Percentage of cache occupancy per task id
+system.l2cache.tags.tag_accesses               632055                       # Number of tag accesses
+system.l2cache.tags.data_accesses              632055                       # Number of data accesses
+system.mem_ctrl.pwrStateResidencyTicks::UNDEFINED  18043272975                       # Cumulative time (in ticks) in various power states
+system.mem_ctrl.bytes_read::.cpu.inst           61632                       # Number of bytes read from this memory
+system.mem_ctrl.bytes_read::.cpu.data          247040                       # Number of bytes read from this memory
+system.mem_ctrl.bytes_read::total              308672                       # Number of bytes read from this memory
+system.mem_ctrl.bytes_inst_read::.cpu.inst        61632                       # Number of instructions bytes read from this memory
+system.mem_ctrl.bytes_inst_read::total          61632                       # Number of instructions bytes read from this memory
+system.mem_ctrl.bytes_written::.writebacks          128                       # Number of bytes written to this memory
+system.mem_ctrl.bytes_written::total              128                       # Number of bytes written to this memory
+system.mem_ctrl.num_reads::.cpu.inst              963                       # Number of read requests responded to by this memory
+system.mem_ctrl.num_reads::.cpu.data             3860                       # Number of read requests responded to by this memory
+system.mem_ctrl.num_reads::total                 4823                       # Number of read requests responded to by this memory
+system.mem_ctrl.num_writes::.writebacks             2                       # Number of write requests responded to by this memory
+system.mem_ctrl.num_writes::total                   2                       # Number of write requests responded to by this memory
+system.mem_ctrl.bw_read::.cpu.inst            3415788                       # Total read bandwidth from this memory (bytes/s)
+system.mem_ctrl.bw_read::.cpu.data           13691529                       # Total read bandwidth from this memory (bytes/s)
+system.mem_ctrl.bw_read::total               17107318                       # Total read bandwidth from this memory (bytes/s)
+system.mem_ctrl.bw_inst_read::.cpu.inst       3415788                       # Instruction read bandwidth from this memory (bytes/s)
+system.mem_ctrl.bw_inst_read::total           3415788                       # Instruction read bandwidth from this memory (bytes/s)
+system.mem_ctrl.bw_write::.writebacks            7094                       # Write bandwidth from this memory (bytes/s)
+system.mem_ctrl.bw_write::total                  7094                       # Write bandwidth from this memory (bytes/s)
+system.mem_ctrl.bw_total::.writebacks            7094                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrl.bw_total::.cpu.inst           3415788                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrl.bw_total::.cpu.data          13691529                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrl.bw_total::total              17114412                       # Total bandwidth to/from this memory (bytes/s)
+system.mem_ctrl.avgPriority_.writebacks::samples         2.00                       # Average QoS priority value for accepted requests
+system.mem_ctrl.avgPriority_.cpu.inst::samples       963.00                       # Average QoS priority value for accepted requests
+system.mem_ctrl.avgPriority_.cpu.data::samples      3860.00                       # Average QoS priority value for accepted requests
+system.mem_ctrl.priorityMinLatency       0.000000018750                       # per QoS priority minimum request to response latency (s)
+system.mem_ctrl.priorityMaxLatency       0.000000578730                       # per QoS priority maximum request to response latency (s)
+system.mem_ctrl.numReadWriteTurnArounds             0                       # Number of turnarounds from READ to WRITE
+system.mem_ctrl.numWriteReadTurnArounds             0                       # Number of turnarounds from WRITE to READ
+system.mem_ctrl.numStayReadState                14282                       # Number of times bus staying in READ state
+system.mem_ctrl.numStayWriteState                   0                       # Number of times bus staying in WRITE state
+system.mem_ctrl.readReqs                         4823                       # Number of read requests accepted
+system.mem_ctrl.writeReqs                           2                       # Number of write requests accepted
+system.mem_ctrl.readBursts                       4823                       # Number of DRAM read bursts, including those serviced by the write queue
+system.mem_ctrl.writeBursts                         2                       # Number of DRAM write bursts, including those merged in the write queue
+system.mem_ctrl.servicedByWrQ                       0                       # Number of DRAM read bursts serviced by the write queue
+system.mem_ctrl.mergedWrBursts                      0                       # Number of DRAM write bursts merged with an existing one
+system.mem_ctrl.neitherReadNorWriteReqs             0                       # Number of requests that are neither read nor write
+system.mem_ctrl.perBankRdBursts::0                433                       # Per bank write bursts
+system.mem_ctrl.perBankRdBursts::1                417                       # Per bank write bursts
+system.mem_ctrl.perBankRdBursts::2                354                       # Per bank write bursts
+system.mem_ctrl.perBankRdBursts::3                414                       # Per bank write bursts
+system.mem_ctrl.perBankRdBursts::4                415                       # Per bank write bursts
+system.mem_ctrl.perBankRdBursts::5                301                       # Per bank write bursts
+system.mem_ctrl.perBankRdBursts::6                287                       # Per bank write bursts
+system.mem_ctrl.perBankRdBursts::7                304                       # Per bank write bursts
+system.mem_ctrl.perBankRdBursts::8                327                       # Per bank write bursts
+system.mem_ctrl.perBankRdBursts::9                314                       # Per bank write bursts
+system.mem_ctrl.perBankRdBursts::10               256                       # Per bank write bursts
+system.mem_ctrl.perBankRdBursts::11               306                       # Per bank write bursts
+system.mem_ctrl.perBankRdBursts::12               202                       # Per bank write bursts
+system.mem_ctrl.perBankRdBursts::13               130                       # Per bank write bursts
+system.mem_ctrl.perBankRdBursts::14               111                       # Per bank write bursts
+system.mem_ctrl.perBankRdBursts::15               252                       # Per bank write bursts
+system.mem_ctrl.perBankWrBursts::0                  0                       # Per bank write bursts
+system.mem_ctrl.perBankWrBursts::1                  0                       # Per bank write bursts
+system.mem_ctrl.perBankWrBursts::2                  0                       # Per bank write bursts
+system.mem_ctrl.perBankWrBursts::3                  0                       # Per bank write bursts
+system.mem_ctrl.perBankWrBursts::4                  0                       # Per bank write bursts
+system.mem_ctrl.perBankWrBursts::5                  0                       # Per bank write bursts
+system.mem_ctrl.perBankWrBursts::6                  0                       # Per bank write bursts
+system.mem_ctrl.perBankWrBursts::7                  0                       # Per bank write bursts
+system.mem_ctrl.perBankWrBursts::8                  0                       # Per bank write bursts
+system.mem_ctrl.perBankWrBursts::9                  0                       # Per bank write bursts
+system.mem_ctrl.perBankWrBursts::10                 0                       # Per bank write bursts
+system.mem_ctrl.perBankWrBursts::11                 0                       # Per bank write bursts
+system.mem_ctrl.perBankWrBursts::12                 0                       # Per bank write bursts
+system.mem_ctrl.perBankWrBursts::13                 0                       # Per bank write bursts
+system.mem_ctrl.perBankWrBursts::14                 0                       # Per bank write bursts
+system.mem_ctrl.perBankWrBursts::15                 0                       # Per bank write bursts
+system.mem_ctrl.avgRdQLen                        1.00                       # Average read queue length when enqueuing
+system.mem_ctrl.avgWrQLen                        0.00                       # Average write queue length when enqueuing
+system.mem_ctrl.totQLat                      32181190                       # Total ticks spent queuing
+system.mem_ctrl.totBusLat                    24115000                       # Total ticks spent in databus transfers
+system.mem_ctrl.totMemAccLat                122612440                       # Total ticks spent from burst creation until serviced by the DRAM
+system.mem_ctrl.avgQLat                       6672.44                       # Average queueing delay per DRAM burst
+system.mem_ctrl.avgBusLat                     5000.00                       # Average bus latency per DRAM burst
+system.mem_ctrl.avgMemAccLat                 25422.44                       # Average memory access latency per DRAM burst
+system.mem_ctrl.numRdRetry                          0                       # Number of times read queue was full causing retry
+system.mem_ctrl.numWrRetry                          0                       # Number of times write queue was full causing retry
+system.mem_ctrl.readRowHits                      3839                       # Number of row buffer hits during reads
+system.mem_ctrl.writeRowHits                        0                       # Number of row buffer hits during writes
+system.mem_ctrl.readRowHitRate                  79.60                       # Row buffer hit rate for reads
+system.mem_ctrl.writeRowHitRate                  0.00                       # Row buffer hit rate for writes
+system.mem_ctrl.readPktSize::0                      0                       # Read request sizes (log2)
+system.mem_ctrl.readPktSize::1                      0                       # Read request sizes (log2)
+system.mem_ctrl.readPktSize::2                      0                       # Read request sizes (log2)
+system.mem_ctrl.readPktSize::3                      0                       # Read request sizes (log2)
+system.mem_ctrl.readPktSize::4                      0                       # Read request sizes (log2)
+system.mem_ctrl.readPktSize::5                      0                       # Read request sizes (log2)
+system.mem_ctrl.readPktSize::6                   4823                       # Read request sizes (log2)
+system.mem_ctrl.writePktSize::0                     0                       # Write request sizes (log2)
+system.mem_ctrl.writePktSize::1                     0                       # Write request sizes (log2)
+system.mem_ctrl.writePktSize::2                     0                       # Write request sizes (log2)
+system.mem_ctrl.writePktSize::3                     0                       # Write request sizes (log2)
+system.mem_ctrl.writePktSize::4                     0                       # Write request sizes (log2)
+system.mem_ctrl.writePktSize::5                     0                       # Write request sizes (log2)
+system.mem_ctrl.writePktSize::6                     2                       # Write request sizes (log2)
+system.mem_ctrl.rdQLenPdf::0                     4822                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::1                        1                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::2                        0                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::3                        0                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::4                        0                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::5                        0                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::6                        0                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::7                        0                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::8                        0                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::9                        0                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::10                       0                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::11                       0                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::12                       0                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::13                       0                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::14                       0                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::15                       0                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::16                       0                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::17                       0                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::18                       0                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::19                       0                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::20                       0                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::21                       0                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::22                       0                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::23                       0                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::24                       0                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::25                       0                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::26                       0                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::27                       0                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::28                       0                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::29                       0                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::30                       0                       # What read queue length does an incoming req see
+system.mem_ctrl.rdQLenPdf::31                       0                       # What read queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::0                        1                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::1                        1                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::2                        0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::3                        0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::4                        0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::5                        0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::6                        0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::7                        0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::8                        0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::9                        0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::10                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::11                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::12                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::13                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::14                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::15                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::16                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::17                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::18                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::19                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::20                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::21                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::22                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::23                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::24                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::25                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::26                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::27                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::28                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::29                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::30                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::31                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::32                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::33                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::34                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::35                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::36                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::37                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::38                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::39                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::40                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::41                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::42                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::43                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::44                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::45                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::46                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::47                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::48                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::49                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::50                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::51                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::52                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::53                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::54                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::55                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::56                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::57                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::58                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::59                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::60                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::61                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::62                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.wrQLenPdf::63                       0                       # What write queue length does an incoming req see
+system.mem_ctrl.bytesPerActivate::samples          981                       # Bytes accessed per row activation
+system.mem_ctrl.bytesPerActivate::mean     314.063201                       # Bytes accessed per row activation
+system.mem_ctrl.bytesPerActivate::gmean    224.353946                       # Bytes accessed per row activation
+system.mem_ctrl.bytesPerActivate::stdev    277.938035                       # Bytes accessed per row activation
+system.mem_ctrl.bytesPerActivate::0-127           186     18.96%     18.96% # Bytes accessed per row activation
+system.mem_ctrl.bytesPerActivate::128-255          196     19.98%     38.94% # Bytes accessed per row activation
+system.mem_ctrl.bytesPerActivate::256-383          388     39.55%     78.49% # Bytes accessed per row activation
+system.mem_ctrl.bytesPerActivate::384-511           46      4.69%     83.18% # Bytes accessed per row activation
+system.mem_ctrl.bytesPerActivate::512-639           35      3.57%     86.75% # Bytes accessed per row activation
+system.mem_ctrl.bytesPerActivate::640-767           15      1.53%     88.28% # Bytes accessed per row activation
+system.mem_ctrl.bytesPerActivate::768-895           16      1.63%     89.91% # Bytes accessed per row activation
+system.mem_ctrl.bytesPerActivate::896-1023            5      0.51%     90.42% # Bytes accessed per row activation
+system.mem_ctrl.bytesPerActivate::1024-1151           94      9.58%    100.00% # Bytes accessed per row activation
+system.mem_ctrl.bytesPerActivate::total           981                       # Bytes accessed per row activation
+system.mem_ctrl.bytesReadDRAM                  308672                       # Total number of bytes read from DRAM
+system.mem_ctrl.bytesReadWrQ                        0                       # Total number of bytes read from write queue
+system.mem_ctrl.bytesWritten                        0                       # Total number of bytes written to DRAM
+system.mem_ctrl.bytesReadSys                   308672                       # Total read bytes from the system interface side
+system.mem_ctrl.bytesWrittenSys                   128                       # Total written bytes from the system interface side
+system.mem_ctrl.avgRdBW                         17.11                       # Average DRAM read bandwidth in MiByte/s
+system.mem_ctrl.avgWrBW                          0.00                       # Average achieved write bandwidth in MiByte/s
+system.mem_ctrl.avgRdBWSys                      17.11                       # Average system read bandwidth in MiByte/s
+system.mem_ctrl.avgWrBWSys                       0.01                       # Average system write bandwidth in MiByte/s
+system.mem_ctrl.peakBW                       12800.00                       # Theoretical peak bandwidth in MiByte/s
+system.mem_ctrl.busUtil                          0.13                       # Data bus utilization in percentage
+system.mem_ctrl.busUtilRead                      0.13                       # Data bus utilization in percentage for reads
+system.mem_ctrl.busUtilWrite                     0.00                       # Data bus utilization in percentage for writes
+system.mem_ctrl.totGap                    18043205635                       # Total gap between requests
+system.mem_ctrl.avgGap                     3739524.48                       # Average gap between requests
+system.mem_ctrl.masterReadBytes::.cpu.inst        61632                       # Per-master bytes read from memory
+system.mem_ctrl.masterReadBytes::.cpu.data       247040                       # Per-master bytes read from memory
+system.mem_ctrl.masterReadRate::.cpu.inst 3415788.260001093149                       # Per-master bytes read from memory rate (Bytes/sec)
+system.mem_ctrl.masterReadRate::.cpu.data 13691529.266463365406                       # Per-master bytes read from memory rate (Bytes/sec)
+system.mem_ctrl.masterReadAccesses::.cpu.inst          963                       # Per-master read serviced memory accesses
+system.mem_ctrl.masterReadAccesses::.cpu.data         3860                       # Per-master read serviced memory accesses
+system.mem_ctrl.masterWriteAccesses::.writebacks            2                       # Per-master write serviced memory accesses
+system.mem_ctrl.masterReadTotalLat::.cpu.inst     24320280                       # Per-master read total memory access latency
+system.mem_ctrl.masterReadTotalLat::.cpu.data     98292160                       # Per-master read total memory access latency
+system.mem_ctrl.masterReadAvgLat::.cpu.inst     25254.70                       # Per-master read average memory access latency
+system.mem_ctrl.masterReadAvgLat::.cpu.data     25464.29                       # Per-master read average memory access latency
+system.mem_ctrl.masterWriteAvgLat::.writebacks         0.00                       # Per-master write average memory access latency
+system.mem_ctrl.pageHitRate                     79.56                       # Row buffer hit rate, read and write combined
+system.mem_ctrl.rank1.actEnergy               2577540                       # Energy for activate commands per rank (pJ)
+system.mem_ctrl.rank1.preEnergy               1369995                       # Energy for precharge commands per rank (pJ)
+system.mem_ctrl.rank1.readEnergy             13551720                       # Energy for read commands per rank (pJ)
+system.mem_ctrl.rank1.writeEnergy                   0                       # Energy for write commands per rank (pJ)
+system.mem_ctrl.rank1.refreshEnergy      1424120880.000000                       # Energy for refresh commands per rank (pJ)
+system.mem_ctrl.rank1.actBackEnergy         804001530                       # Energy for active background per rank (pJ)
+system.mem_ctrl.rank1.preBackEnergy        6251563200                       # Energy for precharge background per rank (pJ)
+system.mem_ctrl.rank1.actPowerDownEnergy            0                       # Energy for active power-down per rank (pJ)
+system.mem_ctrl.rank1.prePowerDownEnergy            0                       # Energy for precharge power-down per rank (pJ)
+system.mem_ctrl.rank1.selfRefreshEnergy             0                       # Energy for self refresh per rank (pJ)
+system.mem_ctrl.rank1.totalEnergy          8497184865                       # Total energy per rank (pJ)
+system.mem_ctrl.rank1.averagePower         470.933676                       # Core power per rank (mW)
+system.mem_ctrl.rank1.totalIdleTime                 0                       # Total Idle time Per DRAM Rank
+system.mem_ctrl.rank1.memoryStateTime::IDLE  16245319760                       # Time in different power states
+system.mem_ctrl.rank1.memoryStateTime::REF    602420000                       # Time in different power states
+system.mem_ctrl.rank1.memoryStateTime::SREF            0                       # Time in different power states
+system.mem_ctrl.rank1.memoryStateTime::PRE_PDN            0                       # Time in different power states
+system.mem_ctrl.rank1.memoryStateTime::ACT   1195533215                       # Time in different power states
+system.mem_ctrl.rank1.memoryStateTime::ACT_PDN            0                       # Time in different power states
+system.mem_ctrl.rank0.actEnergy               4448220                       # Energy for activate commands per rank (pJ)
+system.mem_ctrl.rank0.preEnergy               2352900                       # Energy for precharge commands per rank (pJ)
+system.mem_ctrl.rank0.readEnergy             20884500                       # Energy for read commands per rank (pJ)
+system.mem_ctrl.rank0.writeEnergy                   0                       # Energy for write commands per rank (pJ)
+system.mem_ctrl.rank0.refreshEnergy      1424120880.000000                       # Energy for refresh commands per rank (pJ)
+system.mem_ctrl.rank0.actBackEnergy        1089072210                       # Energy for active background per rank (pJ)
+system.mem_ctrl.rank0.preBackEnergy        6011503680                       # Energy for precharge background per rank (pJ)
+system.mem_ctrl.rank0.actPowerDownEnergy            0                       # Energy for active power-down per rank (pJ)
+system.mem_ctrl.rank0.prePowerDownEnergy            0                       # Energy for precharge power-down per rank (pJ)
+system.mem_ctrl.rank0.selfRefreshEnergy             0                       # Energy for self refresh per rank (pJ)
+system.mem_ctrl.rank0.totalEnergy          8552382390                       # Total energy per rank (pJ)
+system.mem_ctrl.rank0.averagePower         473.992851                       # Core power per rank (mW)
+system.mem_ctrl.rank0.totalIdleTime                 0                       # Total Idle time Per DRAM Rank
+system.mem_ctrl.rank0.memoryStateTime::IDLE  15619045755                       # Time in different power states
+system.mem_ctrl.rank0.memoryStateTime::REF    602420000                       # Time in different power states
+system.mem_ctrl.rank0.memoryStateTime::SREF            0                       # Time in different power states
+system.mem_ctrl.rank0.memoryStateTime::PRE_PDN            0                       # Time in different power states
+system.mem_ctrl.rank0.memoryStateTime::ACT   1821807220                       # Time in different power states
+system.mem_ctrl.rank0.memoryStateTime::ACT_PDN            0                       # Time in different power states
+
+---------- End Simulation Statistics   ----------

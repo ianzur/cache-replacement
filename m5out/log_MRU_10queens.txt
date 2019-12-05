@@ -2,8 +2,8 @@ gem5 Simulator System.  http://gem5.org
 gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 compiled Dec  4 2019 12:36:04
-gem5 started Dec  4 2019 19:49:43
-gem5 executing on raphy, pid 2880
+gem5 started Dec  4 2019 20:13:04
+gem5 executing on raphy, pid 3914
 command line: gem5/build/X86/gem5.opt -r --stdout-file=log_MRU_10queens.txt gem5/configs/cache_replacement_project/two_level.py /home/irz0002/Projects/compass/cache-replacement/benchmarks/benchmarks/queens --o '-c 10'
 
 {'l1d_size': None, 'l1i_size': None, 'RP': None, 'l2_size': None, 'o': '-c 10'}
