@@ -33,6 +33,9 @@ do
             gem5/configs/cache_replacement_project/two_level.py \
             $2 --o "${3}"
 
+        # rename config file (setup from from each run) so each run can be verified
+        cp ./m5out/config.ini ./m5out/${replacement_policy}_${1}_config.ini
+
     done
 
 done
