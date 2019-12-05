@@ -2,8 +2,8 @@ gem5 Simulator System.  http://gem5.org
 gem5 is copyrighted software; use the --copyright option for details.
 
 gem5 compiled Dec  4 2019 12:36:04
-gem5 started Dec  4 2019 18:56:45
-gem5 executing on raphy, pid 844
+gem5 started Dec  4 2019 19:51:37
+gem5 executing on raphy, pid 3007
 command line: gem5/build/X86/gem5.opt -r --stdout-file=log_RRIP_BFS.txt gem5/configs/cache_replacement_project/two_level.py /home/irz0002/Projects/compass/cache-replacement/benchmarks/benchmarks/BFS --o '-o test.txt -r 12 /home/irz0002/Projects/compass/cache-replacement/benchmarks/benchmarks/inputs/Power1000.graph'
 
 {'l1d_size': None, 'l1i_size': None, 'RP': None, 'l2_size': None, 'o': '-o test.txt -r 12 /home/irz0002/Projects/compass/cache-replacement/benchmarks/benchmarks/inputs/Power1000.graph'}
