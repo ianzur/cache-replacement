@@ -1,0 +1,26 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Dec  4 2019 12:36:04
+gem5 started Dec  4 2019 18:58:29
+gem5 executing on raphy, pid 1120
+command line: gem5/build/X86/gem5.opt -r --stdout-file=log_LRU_84x84matrixmult.txt gem5/configs/cache_replacement_project/two_level.py /home/irz0002/Projects/compass/cache-replacement/benchmarks/benchmarks/blocked-matmul --o ''
+
+{'l1d_size': None, 'l1i_size': None, 'RP': None, 'l2_size': None, 'o': ''}
+<type 'str'>
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (16384 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+Beginning simulation!
+info: Entering event queue @ 0.  Starting simulation...
+warn: ignoring syscall access(...)
+info: Increasing stack size by one page.
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall mprotect(...)
+Iteration 0: 8078334 cycles
+Iteration 1: 8101272 cycles
+Iteration 2: 8084808 cycles
+Iteration 3: 8084808 cycles
+Exiting @ tick 17680323115 because exiting with last active thread context

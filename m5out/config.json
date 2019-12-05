@@ -238,9 +238,9 @@
             "replacement_policy": {
                 "eventq_index": 0, 
                 "path": "system.l2cache.replacement_policy", 
-                "type": "MRURP", 
+                "type": "SecondChanceRP", 
                 "name": "replacement_policy", 
-                "cxx_class": "MRURP"
+                "cxx_class": "SecondChanceRP"
             }, 
             "cpu_side": {
                 "peer": "system.l2bus.master[0]", 
@@ -405,9 +405,9 @@
                 "replacement_policy": {
                     "eventq_index": 0, 
                     "path": "system.cpu.icache.replacement_policy", 
-                    "type": "MRURP", 
+                    "type": "SecondChanceRP", 
                     "name": "replacement_policy", 
-                    "cxx_class": "MRURP"
+                    "cxx_class": "SecondChanceRP"
                 }, 
                 "cpu_side": {
                     "peer": "system.cpu.icache_port", 
@@ -620,9 +620,9 @@
                 "replacement_policy": {
                     "eventq_index": 0, 
                     "path": "system.cpu.dcache.replacement_policy", 
-                    "type": "MRURP", 
+                    "type": "SecondChanceRP", 
                     "name": "replacement_policy", 
-                    "cxx_class": "MRURP"
+                    "cxx_class": "SecondChanceRP"
                 }, 
                 "cpu_side": {
                     "peer": "system.cpu.dcache_port", 

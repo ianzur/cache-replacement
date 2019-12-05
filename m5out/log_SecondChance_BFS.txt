@@ -1,0 +1,40 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled Dec  4 2019 12:36:04
+gem5 started Dec  4 2019 18:57:45
+gem5 executing on raphy, pid 1078
+command line: gem5/build/X86/gem5.opt -r --stdout-file=log_SecondChance_BFS.txt gem5/configs/cache_replacement_project/two_level.py /home/irz0002/Projects/compass/cache-replacement/benchmarks/benchmarks/BFS --o '-o test.txt -r 12 /home/irz0002/Projects/compass/cache-replacement/benchmarks/benchmarks/inputs/Power1000.graph'
+
+{'l1d_size': None, 'l1i_size': None, 'RP': None, 'l2_size': None, 'o': '-o test.txt -r 12 /home/irz0002/Projects/compass/cache-replacement/benchmarks/benchmarks/inputs/Power1000.graph'}
+<type 'str'>
+Global frequency set at 1000000000000 ticks per second
+warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (16384 Mbytes)
+0: system.remote_gdb: listening for remote gdb on port 7000
+Beginning simulation!
+info: Entering event queue @ 0.  Starting simulation...
+warn: ignoring syscall access(...)
+info: Increasing stack size by one page.
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall mprotect(...)
+warn: ignoring syscall mprotect(...)
+PBBS-time: 1.1e-05
+PBBS-time: 1.2e-05
+PBBS-time: 1.2e-05
+PBBS-time: 1.11e-05
+PBBS-time: 1.11e-05
+PBBS-time: 1.1e-05
+PBBS-time: 1.2e-05
+PBBS-time: 1.2e-05
+PBBS-time: 1.1e-05
+PBBS-time: 1.1e-05
+PBBS-time: 1.1e-05
+PBBS-time: 1.19e-05
+
+Exiting @ tick 36397605335 because exiting with last active thread context
